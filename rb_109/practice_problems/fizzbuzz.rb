@@ -49,18 +49,21 @@ Algorithm:
 
 def fizzbuzz(start, finish)
   range = (start..finish)
+  arr = []
 
   range.each do |num|
     if (num % 3).zero? && (num % 5).zero?
-      puts 'FizzBuzz'
+      arr << 'FizzBuzz'
     elsif (num % 3).zero?
-      puts 'Fizz'
+      arr << 'Fizz'
     elsif (num % 5).zero?
-      puts 'Buzz'
+      arr << 'Buzz'
     else
-      puts num
+      arr << num
     end
   end
+
+  p arr.join(', ')
 end
 
 fizzbuzz(1, 15)
