@@ -53,7 +53,8 @@ def find_prime(first, last)
     primes << element if factor_count <= 2
   end
 
-  p primes
+  puts primes
 end
 
-p find_prime(3, 10) # => 3, 5, 7
+find_prime(3, 10) # => 3, 5, 7
+find_prime(5, 15) # => 5, 7, 11, 13
