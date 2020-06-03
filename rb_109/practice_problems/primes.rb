@@ -58,3 +58,4 @@ end
 
 find_prime(3, 10) # => 3, 5, 7
 find_prime(5, 15) # => 5, 7, 11, 13
+find_prime(1, 2) # => 1, 2
