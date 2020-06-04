@@ -22,6 +22,7 @@ next_bigger_num(9) == -1
 next_bigger_num(111) == -1
 next_bigger_num(531) == -1
 next_bigger_num(123456789) == 123456798
+next_bigger_num(2071) == 2107
 
 Clarifications:
 - How should the method handle invalid inputs?
@@ -69,3 +70,4 @@ p next_bigger_num(9) == -1
 p next_bigger_num(111) == -1
 p next_bigger_num(531) == -1
 p next_bigger_num(123456789) == 123456798
+p next_bigger_num(2071) == 2107
