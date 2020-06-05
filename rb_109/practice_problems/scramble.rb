@@ -51,11 +51,7 @@ def scramble(str1, str2)
   arr2 = str2.chars
 
   arr1.each do |e|
-    if arr2.include?(e)
-      arr2.delete_at(arr2.index(e))
-    else
-      next
-    end
+    arr2.include?(e) ? arr2.delete_at(arr2.index(e)) : next
   end
 
   arr2.empty?
